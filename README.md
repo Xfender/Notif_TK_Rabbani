@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Peraturan Repositori Ini
 Website khusus untuk bagian pegawai
 
@@ -28,15 +28,15 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 - git init
 - git remote add origin https://github.com/Xfender/Notif_TK_Rabbani
 - git pull origin nama_branch
-> __Contoh__ : git pull origin Tio
+> __Contoh__ : git pull origin Rizki
 
 ## Cara push ke branch masing masing
 - git checkout nama_branch
-> __Contoh__ : git checkout Tio (digunakan untuk berganti branch)
+> __Contoh__ : git checkout Rizki (digunakan untuk berganti branch)
 - git add .
 - git commit -m "Pesan anda kepada tim"
 - git push origin nama_branch
-> __Contoh__ : git push -u origin Tio
+> __Contoh__ : git push -u origin Rizki
 
 > __Warning__ : JANGAN PUSH KE BRANCH MASTER
 
