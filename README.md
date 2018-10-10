@@ -19,6 +19,7 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 
 -Download dan instal dulu gitbush https://git-scm.com/downloads
 -kalau udah buka git Bash (jangan git Gui, Git cmd)
+-masuk ke folder project kita dengan perintah (cd /linkfolderkita   exc -> cd /D/projecttk )
 
 > __Warning__ : ini cara pakek git nya
 
@@ -40,17 +41,5 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 
 
 ## Catatan Project
-- Fokus pada proses bisnis untuk aplikasi kita (fokus pada tampilan)
-- Backup dan restore database gunakan sqlyog
+- Fokus pada tujuan kita
 
-## Format Penulisan Controller, Model, dan View
-
-1. Controller = C_Admin
-2. Model = M_Admin
-3. View = V_Admin
-
-buat folder di dalam view masing masing agar tidak berantakan
-
-__contoh__
-view/admin/v_admin.php
-view/<namafolder>/v_namaView.php
