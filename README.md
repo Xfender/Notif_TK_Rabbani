@@ -1,6 +1,6 @@
 
 # Peraturan Repositori Ini
-Website khusus untuk bagian pegawai
+APlikasi pemberithuan 
 
 Ada 4 branch pada repositori ini
 - master
@@ -10,7 +10,7 @@ Ada 4 branch pada repositori ini
 
 branch master adalah template awal disitu sudah inisialisasi template admin jadi
 tinggal ngoding aja.
-branch Rizki, Ragil, Tio adalah tempat kita masing masing kembangin aplikasi
+branch Rizki, Ilyas, Ana adalah tempat kita masing masing kembangin aplikasi
 jadi masing masing dari kita punya branch dan tidak push ke branch lain atau master.
 ketika kita selesai mengerjakan branch maka pada akhir pekan atau ketika apa yang
 kita kerjakan selesai maka semua branch akan disatukan menjadi branch master,
@@ -46,4 +46,3 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 
 =======
 # Notif_TK_Rabbani
->>>>>>> e5d17da7fae5de7a826d345c01d9f58562a8b7a4
