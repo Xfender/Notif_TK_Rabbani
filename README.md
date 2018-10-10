@@ -18,9 +18,9 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 
 > __Warning__ : JANGAN PUSH KE BRANCH MASTER
 
--Download dan instal dulu gitbush https://git-scm.com/downloads
--kalau udah buka git Bash (jangan git Gui, Git cmd)
--masuk ke folder project kita dengan perintah (cd /linkfolderkita   exc -> cd /D/projecttk )
+- Download dan instal dulu gitbush https://git-scm.com/downloads
+- kalau udah buka git Bash (jangan git Gui, Git cmd)
+- masuk ke folder project kita dengan perintah (cd /linkfolderkita   exc -> cd /D/projecttk )
 
 > __Warning__ : ini cara pakek git nya
 
