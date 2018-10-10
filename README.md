@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Peraturan Repositori Ini
 Website khusus untuk bagian pegawai
 
@@ -40,6 +41,9 @@ lalu jika ada fitur baru buat branch lagi setelah selesai satukan ke master, beg
 > __Warning__ : JANGAN PUSH KE BRANCH MASTER
 
 
-## Catatan Project
+## Catatan Project.
 - Fokus pada tujuan kita
 
+=======
+# Notif_TK_Rabbani
+>>>>>>> e5d17da7fae5de7a826d345c01d9f58562a8b7a4
