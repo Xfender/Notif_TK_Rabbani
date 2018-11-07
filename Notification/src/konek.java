@@ -1,10 +1,11 @@
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-public class koneksi {
-private static Connection mysqlcon;
+class konek {
+        private static Connection mysqlcon;
 public static Connection koneksiDB() throws  SQLException{
    if(mysqlcon==null){
        try {

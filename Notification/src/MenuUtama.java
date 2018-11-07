@@ -25,7 +25,7 @@ public class MenuUtama extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setUndecorated(true);
-         
+        pane1.getViewport().setBackground(new Color(0,32,51));
     }
 
     /**
@@ -43,13 +43,12 @@ public class MenuUtama extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         Footer = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jtnotif = new javax.swing.JTable();
+        pane1 = new javax.swing.JScrollPane();
+        table1 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Notification");
         setBackground(new java.awt.Color(3, 37, 29));
-        setMaximumSize(new java.awt.Dimension(900, 517));
         setMinimumSize(new java.awt.Dimension(900, 517));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -108,7 +107,7 @@ public class MenuUtama extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, HeaderLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 479, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 491, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -125,7 +124,7 @@ public class MenuUtama extends javax.swing.JFrame {
                 .addGap(35, 35, 35))
         );
 
-        Footer.setBackground(new java.awt.Color(0, 0, 0));
+        Footer.setBackground(new java.awt.Color(0, 32, 51));
         Footer.setMaximumSize(new java.awt.Dimension(100, 517));
 
         javax.swing.GroupLayout FooterLayout = new javax.swing.GroupLayout(Footer);
@@ -139,17 +138,17 @@ public class MenuUtama extends javax.swing.JFrame {
             .addGap(0, 71, Short.MAX_VALUE)
         );
 
-        jPanel1.setBackground(new java.awt.Color(8, 14, 11));
+        jPanel1.setBackground(new java.awt.Color(0, 32, 51));
         jPanel1.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(0, 212, 234)));
 
-        jScrollPane1.setBackground(new java.awt.Color(5, 30, 24));
-        jScrollPane1.setBorder(null);
-        jScrollPane1.setForeground(new java.awt.Color(3, 37, 29));
-        jScrollPane1.setToolTipText("");
+        pane1.setBackground(new java.awt.Color(5, 30, 24));
+        pane1.setBorder(null);
+        pane1.setForeground(new java.awt.Color(3, 37, 29));
+        pane1.setToolTipText("");
 
-        jtnotif.setBackground(new java.awt.Color(255, 51, 51));
-        jtnotif.setForeground(new java.awt.Color(3, 37, 29));
-        jtnotif.setModel(new javax.swing.table.DefaultTableModel(
+        table1.setBackground(new java.awt.Color(0, 32, 51));
+        table1.setForeground(new java.awt.Color(3, 37, 29));
+        table1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -160,15 +159,15 @@ public class MenuUtama extends javax.swing.JFrame {
                 "No", "Nama", "Jam"
             }
         ));
-        jtnotif.setGridColor(new java.awt.Color(3, 37, 29));
-        jtnotif.setRowSelectionAllowed(false);
-        jtnotif.getTableHeader().setResizingAllowed(false);
-        jtnotif.getTableHeader().setReorderingAllowed(false);
-        jScrollPane1.setViewportView(jtnotif);
-        if (jtnotif.getColumnModel().getColumnCount() > 0) {
-            jtnotif.getColumnModel().getColumn(0).setResizable(false);
-            jtnotif.getColumnModel().getColumn(1).setResizable(false);
-            jtnotif.getColumnModel().getColumn(2).setResizable(false);
+        table1.setGridColor(new java.awt.Color(0, 204, 204));
+        table1.setRowSelectionAllowed(false);
+        table1.getTableHeader().setResizingAllowed(false);
+        table1.getTableHeader().setReorderingAllowed(false);
+        pane1.setViewportView(table1);
+        if (table1.getColumnModel().getColumnCount() > 0) {
+            table1.getColumnModel().getColumn(0).setResizable(false);
+            table1.getColumnModel().getColumn(1).setResizable(false);
+            table1.getColumnModel().getColumn(2).setResizable(false);
         }
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -177,14 +176,14 @@ public class MenuUtama extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 828, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(pane1, javax.swing.GroupLayout.PREFERRED_SIZE, 828, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(24, 24, 24)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(pane1, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(51, Short.MAX_VALUE))
         );
 
@@ -280,8 +279,8 @@ public class MenuUtama extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jtnotif;
+    private javax.swing.JScrollPane pane1;
+    private javax.swing.JTable table1;
     // End of variables declaration//GEN-END:variables
 
     
